@@ -320,7 +320,7 @@
             this.flowLayoutPanel1.Controls.Add(this.label1);
             this.flowLayoutPanel1.Controls.Add(this.label4);
             this.flowLayoutPanel1.Controls.Add(this.label2);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(505, 8);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(430, 6);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(288, 33);
             this.flowLayoutPanel1.TabIndex = 26;
@@ -370,6 +370,7 @@
             this.rbToday.TabIndex = 0;
             this.rbToday.Text = "меню на сегодня";
             this.rbToday.UseVisualStyleBackColor = true;
+            this.rbToday.Visible = false;
             // 
             // rbWeek
             // 
@@ -382,6 +383,7 @@
             this.rbWeek.TabStop = true;
             this.rbWeek.Text = "меню на неделю";
             this.rbWeek.UseVisualStyleBackColor = true;
+            this.rbWeek.CheckedChanged += new System.EventHandler(this.rbWeek_CheckedChanged);
             // 
             // rbMonth
             // 
@@ -392,6 +394,7 @@
             this.rbMonth.TabIndex = 2;
             this.rbMonth.Text = "меню на месяц";
             this.rbMonth.UseVisualStyleBackColor = true;
+            this.rbMonth.CheckedChanged += new System.EventHandler(this.rbMonth_CheckedChanged);
             // 
             // frmList
             // 

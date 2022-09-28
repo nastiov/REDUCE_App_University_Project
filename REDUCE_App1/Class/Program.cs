@@ -23,7 +23,7 @@ namespace REDUCE_App1
             Application.SetCompatibleTextRenderingDefault(false);
 
             #region начало работы приожения с авторизации
-            /*
+            //*
             //переменная в которой будет маркер, можем ли мы открывать какую-либо форму или нет
             openMainForm = false;//при входе пользователь должен пройти авторизацию, чтобы изменить на true
             Application.Run(new frmLogin());
@@ -35,13 +35,13 @@ namespace REDUCE_App1
                     Application.Run(new frmAdmin());//если роль соответсвует админу, то открываем форму админа
                 else Application.Run(new frmUser());//в противном случае открываем форму пользователя
             }
-            */
+            //*/
             #endregion
 
             #region запуск окон для теста
             //Application.Run(new frmLogin());
             //Application.Run(new frmUser());
-            Application.Run(new frmList());
+            //Application.Run(new frmList());
             //Application.Run(new frmRecipe());
             //Application.Run(new frmMenu());
             //Application.Run(new frmAdmin());

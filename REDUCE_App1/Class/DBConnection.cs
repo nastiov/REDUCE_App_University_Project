@@ -43,6 +43,10 @@ namespace REDUCE_App1
         public static string spGetListMan = "sp_GetListMan";
         public static string spGetListWoman = "sp_GetListWoman";
 
+        public static string spGetListCoupleMonth = "sp_GetListCouple_Month";
+        public static string spGetListManMonth = "sp_GetListMan_Month";
+        public static string spGetListWomanMonth = "sp_GetListWoman_Month";
+
         public static string spRequest = "sp_Request";
         public static string spInsertRequest = "sp_InsertRequest";
         public static string spUpdateRequest = "sp_UpdateRequest";
